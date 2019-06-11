@@ -29,7 +29,7 @@ app.get('/sms', (req, res) => {
         // Create publish parameters
         var params = {
                 Message: 'TEXT_MESSAGE',
-                PhoneNumber: '+66838196107',
+                PhoneNumber: 'ENTER NUMBER WITH COUNTRY CODE',
             };
 
         // Create promise and SNS service object
